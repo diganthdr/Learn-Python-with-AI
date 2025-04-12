@@ -107,4 +107,5 @@ flowchart LR
     style B fill:#bbf,stroke:#333
     style C fill:#9f9,stroke:#333
 ```
-Join coding camp, Let us connect the dots and build!
+
+### Join coding camp, Let us connect the dots and learn to build a working product!
