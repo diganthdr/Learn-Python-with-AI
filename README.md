@@ -1,40 +1,110 @@
-# 4-Week Beginner Python + AI Course Plan
+# Daily Digest Dashboard - Python Bootcamp (AI-Assisted)
 
-## Week 1: Python Basics + AI as a Coding Buddy
-| Day | Topic                          | Activity                                                                 |
-|-----|--------------------------------|--------------------------------------------------------------------------|
-| 1   | Intro to Python & AI Tools     | Use AI to generate/explain a "Hello, Name" script                        |
-| 2   | Conditionals & AI Debugging    | Build a "grade calculator" with AI; break/fix code                       |
-| 3   | Loops & AI for Repetition      | AI generates a "multiplication table"; tweak number-guessing game        |
-| 4   | Mini-Project + AI Ethics       | Create **Mad Libs generator** with AI; discuss trust in AI code          |
+## 📋 Project Overview
+A 4-week project-based course where students build a **News Dashboard App** with weather, calendar, and to-do list integration while learning Python and AI-assisted development.
 
-## Week 2: Functions, Lists & AI Automation
-| Day | Topic                          | Activity                                                                 |
-|-----|--------------------------------|--------------------------------------------------------------------------|
-| 1   | Functions with AI              | AI writes a "password checker" function                                  |
-| 2   | Lists & AI Shortcuts           | Build "shopping list manager" with AI                                    |
-| 3   | Dictionaries & AI for Data     | AI helps create "student gradebook" dictionary                           |
-| 4   | To-Do List Project             | Build **to-do list app** (AI helps with file storage)                    |
+## 🚀 Final Project Features
+- **📰 News Module**: Web-scraped headlines from BBC/CNN
+- **🌦️ Weather Module**: Real-time data from OpenWeather API
+- **📅 Calendar Integration**: Fetch Google Calendar events
+- **✅ To-Do List**: Persistent task manager (JSON storage)
+- **✉️ Email Digest**: Daily summary via Gmail API
+- **🚀 Deployment**: Flask web app on Render/Vercel
 
-## Week 3: Files, APIs & Real-World AI
-| Day | Topic                          | Activity                                                                 |
-|-----|--------------------------------|--------------------------------------------------------------------------|
-| 1   | File Handling with AI          | AI writes "diary entry saver" script                                     |
-| 2   | APIs for Beginners (AI-Assisted)| Fetch random cat facts using AI-generated `requests` code                |
-| 3   | Mini-Project: Weather App      | Build **weather fetcher** (OpenWeatherMap API + AI)                      |
-| 4   | Debugging Party                | Students share broken code; AI helps debug in groups                     |
+## 📅 Complete 4-Week Course Plan
 
-## Week 4: Fun Projects + AI Best Practices
-| Day | Topic                          | Activity                                                                 |
-|-----|--------------------------------|--------------------------------------------------------------------------|
-| 1   | AI-Assisted Quiz Game          | AI generates trivia quiz; students customize questions                   |
-| 2   | Personal AI Coding Assistant   | Script that uses AI to answer Python questions (via `input()`)           |
-| 3   | Project Work Time              | Students polish projects with AI help                                    |
-| 4   | Showcase & Reflection          | Present projects; discuss "What's next?" for AI + Python                |
+### Week 1: CLI To-Do List + Python Basics
+**Goal**: Functional CLI to-do list with file storage
 
----
+| Day | Topics | AI Integration | Deliverable |
+|-----|--------|----------------|-------------|
+| 1 | Dev Setup (Python, VS Code, Git, Copilot) | "Generate Git cheat sheet" | Verified Python environment |
+| 2 | Variables, Lists, User Input | "Write task adder function" | `add_task()` working |
+| 3 | File I/O (JSON) | "How to save list to JSON?" | `tasks.json` persistence |
+| 4 | Functions, Error Handling | "Add input validation" | Robust task manager |
+| 5 | Git Basics | "Write README template" | GitHub repo pushed |
 
-### Teaching Notes
-- **Tools**: Codeium (free), ChatGPT, Replit AI
-- **Key Principle**: Always compare AI vs. human-written code
-- **Format**: 60% hands-on, 30% discussion, 10% lecture
+### Week 2: API Integration (News + Weather)
+**Goal**: CLI app shows weather + news
+
+| Day | Topics | AI Integration | Deliverable |
+|-----|--------|----------------|-------------|
+| 6 | Requests Library | "Call OpenWeather API" | Weather data fetcher |
+| 7 | Web Scraping (BeautifulSoup) | "Scrape CNN headlines" | News extractor |
+| 8 | Error Handling | "Add API timeout fallback" | Resilient data fetcher |
+| 9 | Data Formatting | "Pretty-print weather data" | Human-readable output |
+| 10 | Git Branching | "Resolve merge conflict" | `feature/apis` branch |
+
+### Week 3: Automation (Calendar + Email)
+**Goal**: App sends daily email digests
+
+| Day | Topics | AI Integration | Deliverable |
+|-----|--------|----------------|-------------|
+| 11 | OAuth2 (Google API) | "Get Google API credentials" | Auth flow working |
+| 12 | Calendar API | "Fetch today's events" | Calendar integration |
+| 13 | Gmail API | "Send test email" | Email digest system |
+| 14 | Scheduling (schedule lib) | "Run daily at 8AM" | Automated triggers |
+| 15 | GitHub Actions | "Create CI workflow" | Automated testing |
+
+### Week 4: Web App + Deployment
+**Goal**: Deployed web dashboard with CI/CD
+
+| Day | Topics | AI Integration | Deliverable |
+|-----|--------|----------------|-------------|
+| 16 | Flask Basics | "Create `/news` route" | Web framework setup |
+| 17 | Jinja Templates | "Design dashboard UI" | Frontend rendering |
+| 18 | Docker | "Write Dockerfile" | Containerized app |
+| 19 | Deployment (Render) | "Deploy Flask app" | Live production URL |
+| 20 | Demo Day | "Script 1-min demo" | Portfolio-ready |
+
+## 🧠 Problem-Solving Framework (D.B.D.P.)
+### 1. Decompose
+Break problems into sub-tasks using AI prompts like:
+- "List components needed for weather module"
+- "Break down email digest feature into steps"
+
+### 2. Brainstorm
+AI-assisted solutions with prompts:
+- "3 ways to fetch weather data in Python"
+- "Best practices for Google API authentication"
+
+### 3. Document
+Daily updates in `PROCESS.md`:
+Ideas, components structure, design etc.
+
+  
+### 4. Present
+**Objective**: Demonstrate and reflect on the solution
+
+**Presentation Template**:
+1. **Problem Statement**: What we needed to solve
+2. **Approach**: How we broke it down
+3. **Solution**: What we implemented
+4. **AI Contributions**: How AI assisted
+5. **Results**: Working demonstration
+6. **Reflections**: What we'd improve
+
+**AI Prompts for Presentation Prep**:
+- "Help me create a 2-minute demo script for [feature]"
+- "Generate bullet points explaining [technical concept] simply"
+- "What visuals would help explain [architecture]?"
+
+## 🚀 Final Note: Build to Learn, Learn to Build
+
+This bootcamp isn't just about learning Python syntax—it's about **connecting the dots** to create real-world solutions. Here's what truly matters:
+
+### 1. Syntax is Just the Start
+- Memorizing `for` loops isn't the goal  
+- What matters: **How these pieces solve real problems**
+
+### 2. Think Like a Builder
+Focus on:  
+```mermaid
+flowchart LR
+    A[Inputs] --> B[Your Code]
+    B --> C[Working Product]
+    style A fill:#f9f,stroke:#333
+    style B fill:#bbf,stroke:#333
+    style C fill:#9f9,stroke:#333
+```
+Join coding camp, Let us connect the dots and build!
