@@ -1,0 +1,7 @@
+{
+  "students": {
+    "Alice": [25, "A", "Computer Science"],
+    "Bob": [22, "B", "Mathematics"],
+    "Charlie": [23, "A", "Physics"]
+  }
+}

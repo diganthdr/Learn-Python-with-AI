@@ -2,7 +2,7 @@
 
 ## 📋 Project Overview
 A 4-week project-based course where students build a **News Dashboard App** with weather, calendar, and to-do list integration while learning Python and AI-assisted development.
-
+hi
 ## 🚀 Final Project Features
 - **📰 News Module**: Web-scraped headlines from BBC/CNN
 - **🌦️ Weather Module**: Real-time data from OpenWeather API
