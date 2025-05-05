@@ -1,7 +1,13 @@
+"""
+news.py
+This module contains functions to scrape news headlines from the Times of India website.
+"""
 import requests
 from bs4 import BeautifulSoup
 
 def scrape_toi_headlines():
+    """Scrape the latest headlines from Times of India."""
+
     url = "https://timesofindia.indiatimes.com/"
     response = requests.get(url)
 

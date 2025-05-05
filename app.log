@@ -1,0 +1,44 @@
+2025-05-01 07:50:12,094 - DEBUG - This is a debug message
+2025-05-01 07:50:12,095 - INFO - This is an info message
+2025-05-01 07:50:12,095 - WARNING - This is a warning message
+2025-05-01 07:50:12,095 - ERROR - This is an error message
+2025-05-01 07:50:12,095 - CRITICAL - This is a critical message
+2025-05-01 07:55:42,263 - WARNING - This is a warning message
+2025-05-01 07:55:42,264 - ERROR - This is an error message
+2025-05-01 07:55:42,264 - CRITICAL - This is a critical message
+2025-05-01 08:01:59,930 - INFO - Program started: loops.py
+2025-05-01 08:01:59,930 - DEBUG - Entered main function.
+2025-05-01 08:01:59,930 - DEBUG - Entered get_number_of_entries function.
+2025-05-01 08:02:07,681 - INFO - User entered number of entries: 2
+2025-05-01 08:02:07,682 - DEBUG - Exiting get_number_of_entries function.
+2025-05-01 08:02:07,682 - DEBUG - Entered collect_data function.
+2025-05-01 08:02:10,768 - INFO - Collected name: Diganth
+2025-05-01 08:02:16,891 - INFO - Collected age for Diganth: 44
+2025-05-01 08:02:20,897 - INFO - Collected name: Bhuvan
+2025-05-01 08:02:25,258 - INFO - Collected age for Bhuvan: 22
+2025-05-01 08:02:25,259 - CRITICAL - IndexError in collect_data: list index out of range
+2025-05-01 08:02:25,259 - DEBUG - Exiting collect_data function.
+2025-05-01 08:02:25,259 - INFO - Data collection complete.
+2025-05-01 08:02:25,259 - DEBUG - Entered display_data function.
+2025-05-01 08:02:25,259 - INFO - Displaying data - Name: Diganth, Age: 44
+2025-05-01 08:02:25,259 - INFO - Displaying data - Name: Bhuvan, Age: 22
+2025-05-01 08:02:25,259 - DEBUG - Exiting display_data function.
+2025-05-01 08:02:25,259 - DEBUG - Exiting main function.
+2025-05-01 08:07:24,367 - INFO - Program started: loops.py [<module>:81]
+2025-05-01 08:07:24,367 - DEBUG - Entered main function. [main:74]
+2025-05-01 08:07:24,367 - DEBUG - Entered get_number_of_entries function. [get_number_of_entries:14]
+2025-05-01 08:07:26,203 - INFO - User entered number of entries: 2 [get_number_of_entries:17]
+2025-05-01 08:07:26,204 - DEBUG - Exiting get_number_of_entries function. [get_number_of_entries:24]
+2025-05-01 08:07:26,204 - DEBUG - Entered collect_data function. [collect_data:28]
+2025-05-01 08:07:28,897 - INFO - Collected name: dig [collect_data:32]
+2025-05-01 08:07:30,174 - INFO - Collected age for dig: 44 [collect_data:35]
+2025-05-01 08:07:31,993 - INFO - Collected name: bhu [collect_data:32]
+2025-05-01 08:07:33,358 - INFO - Collected age for bhu: 22 [collect_data:35]
+2025-05-01 08:07:33,358 - CRITICAL - IndexError in collect_data: list index out of range [collect_data:49]
+2025-05-01 08:07:33,359 - DEBUG - Exiting collect_data function. [collect_data:57]
+2025-05-01 08:07:33,359 - INFO - Data collection complete. [collect_data:60]
+2025-05-01 08:07:33,359 - DEBUG - Entered display_data function. [display_data:65]
+2025-05-01 08:07:33,359 - INFO - Displaying data - Name: dig, Age: 44 [display_data:68]
+2025-05-01 08:07:33,359 - INFO - Displaying data - Name: bhu, Age: 22 [display_data:68]
+2025-05-01 08:07:33,359 - DEBUG - Exiting display_data function. [display_data:70]
+2025-05-01 08:07:33,359 - DEBUG - Exiting main function. [main:78]

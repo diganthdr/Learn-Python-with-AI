@@ -1,3 +1,5 @@
+import news
+news.scrape_toi_headlines()
 # Nested dictionary with lists
 students = {
     "Alice": [25, "A", "Computer Science"],
