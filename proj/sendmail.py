@@ -2,15 +2,12 @@ import smtplib
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 
-def send_email():
+def send_email(subject, body):
     sender_email = "bitsandbytes01000100@gmail.com"
     sender_password = "qkmbwpidipqchevi"  # Use the App Password here
     recipient_email = "diganth@gmail.com"  # Replace with the recipient's email
 
     # Create the email
-    subject = "Test Email"
-    body = "This is a test email sent from Python."
-
     msg = MIMEMultipart()
     msg['From'] = sender_email
     msg['To'] = recipient_email
@@ -30,4 +27,6 @@ def send_email():
         server.quit()
 
 if __name__ == "__main__":
-    send_email()
+    subject = "Test Email"
+    body = "This is a test email sent from Python."
+    send_email(subject, body)

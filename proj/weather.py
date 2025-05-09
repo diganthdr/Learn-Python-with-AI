@@ -23,7 +23,6 @@ def fetch_weather_data_(lat, lon, api_key="0a30c51aec587aa1289546d8bccc3cbd"):
         response = requests.get(url, params=params)
         response.raise_for_status()  # Raise an HTTPError for bad responses (4xx and 5xx)
         data = response.json()
-        breakpoint()
         with open('output.json', 'w') as json_file:
             json.dump(data, json_file, indent=4)
 
